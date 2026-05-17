@@ -144,10 +144,12 @@ Edit `config.py` to select your backend and model:
 # Use Google AI (Gemini API key)
 BACKEND = "google"
 GOOGLE_API_KEY = "your-api-key-here"
+GOOGLE_MASTER_MODEL_PATH = "model-name-here"   # e.g., gemma-4-31b-it
 
 # Or use Vertex AI (service account JSON)
 BACKEND = "vertex"
 SERVICE_ACCOUNT_FILE = "vertex_key.json"
+VERTEX_MASTER_MODEL_PATH = "model-name-here"   # e.g., gemma-4-31b-it
 ```
 
 Key parameters in `config.py`:
