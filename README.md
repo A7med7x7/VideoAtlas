@@ -26,7 +26,7 @@
 ---
 
 ## News
-
+- **[May 2026]** Add Gemma 4 Support! 
 - **[March 2026]** VideoAtlas & VideoRLM Initial Release! 🎉
 
 ---
