@@ -188,7 +188,7 @@ def _load_logo(target_height):
     if target_height in _LOGO_CACHE:
         return _LOGO_CACHE[target_height]
 
-    logo_path = Path(__file__).parent / "logo-videoatlas.png"
+    logo_path = Path(__file__).parent / "figures" / "logo-videoatlas.png"
     if not logo_path.exists():
         _LOGO_CACHE[target_height] = None
         return None
